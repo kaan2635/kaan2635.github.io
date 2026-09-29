@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+    
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#0E1B4D"/>
+        <stop offset="0.55" stop-color="#0A1234"/>
+        <stop offset="1" stop-color="#050915"/>
+      </linearGradient>
+      <radialGradient id="glowMint" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0" stop-color="#3EE6C1" stop-opacity="0.3"/>
+        <stop offset="1" stop-color="#3EE6C1" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="glowViolet" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0" stop-color="#8B7CF6" stop-opacity="0.38"/>
+        <stop offset="1" stop-color="#8B7CF6" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    <circle cx="150" cy="900" r="520" fill="url(#glowViolet)"/>
+    <circle cx="512" cy="512" r="470" fill="url(#glowMint)"/>
+    <defs>
+      <linearGradient id="ring" x1="0.15" y1="0.1" x2="0.85" y2="0.95">
+        <stop offset="0" stop-color="#6FE3FF"/>
+        <stop offset="0.45" stop-color="#4CC9F0"/>
+        <stop offset="1" stop-color="#3EE6C1"/>
+      </linearGradient>
+      <linearGradient id="leaf" x1="0.2" y1="0" x2="0.8" y2="1">
+        <stop offset="0" stop-color="#8CF7DC"/>
+        <stop offset="1" stop-color="#28C9A4"/>
+      </linearGradient>
+      <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="26"/>
+      </filter>
+      <path id="enso" d="M 715,260 L 734,276 L 752,293 L 770,311 L 785,331 L 800,352 L 813,373 L 824,396 L 834,420 L 842,444 L 848,469 L 852,494 L 854,520 L 853,546 L 851,572 L 847,597 L 840,622 L 831,647 L 821,671 L 808,693 L 794,715 L 779,736 L 762,756 L 743,774 L 723,790 L 702,805 L 680,819 L 657,830 L 633,840 L 608,848 L 583,854 L 558,859 L 532,861 L 506,861 L 480,860 L 455,856 L 430,851 L 405,843 L 381,834 L 357,823 L 335,811 L 314,796 L 293,780 L 275,763 L 257,744 L 241,724 L 226,703 L 213,681 L 202,658 L 192,634 L 185,610 L 180,585 L 177,559 L 177,534 L 178,508 L 182,483 L 188,459 L 196,435 L 206,413 L 218,391 L 231,370 L 245,351 L 261,333 L 278,316 L 296,301 L 315,287 L 334,275 L 354,264 L 375,254 L 396,246 L 417,239 L 439,233 L 461,229 A 6.72 6.72 0 0 1 463,242 L 442,247 L 422,253 L 402,262 L 384,272 L 367,284 L 350,297 L 335,312 L 322,328 L 310,344 L 299,361 L 290,379 L 282,398 L 276,417 L 271,436 L 268,455 L 266,474 L 265,493 L 265,511 L 267,530 L 270,548 L 273,566 L 278,584 L 283,602 L 290,619 L 297,636 L 307,652 L 317,667 L 328,682 L 341,695 L 354,708 L 369,720 L 384,730 L 400,739 L 417,747 L 434,754 L 452,759 L 471,763 L 489,766 L 508,767 L 526,767 L 545,765 L 563,762 L 582,757 L 599,751 L 616,744 L 633,735 L 649,726 L 664,715 L 678,702 L 691,689 L 704,675 L 715,660 L 725,644 L 733,628 L 741,611 L 747,593 L 751,575 L 755,557 L 758,539 L 759,520 L 759,501 L 757,483 L 755,464 L 751,446 L 745,427 L 738,410 L 730,392 L 720,376 L 709,360 L 697,345 L 683,332 L 669,319 A 37.44 37.44 0 0 1 715,260 Z"/>
+    </defs>
+    <use href="#enso" fill="#3EE6C1" opacity="0.45" filter="url(#soft)"/>
+    <use href="#enso" fill="url(#ring)"/>
+    <g transform="translate(516 518) rotate(38)">
+      <path d="M 0 -175
+    C 72.6 -105, 224.4 7, 0 175
+    C -224.4 7, -72.6 -105, 0 -175 Z" fill="#3EE6C1" opacity="0.35" filter="url(#soft)"/>
+      <path d="M 0 -175
+    C 72.6 -105, 224.4 7, 0 175
+    C -224.4 7, -72.6 -105, 0 -175 Z" fill="url(#leaf)"/>
+      <path d="M 0 -126 Q 9 0 0 209" stroke="#0B2A3A" stroke-opacity="0.5" stroke-width="11" stroke-linecap="round" fill="none"/>
+    </g>
+  </svg>
